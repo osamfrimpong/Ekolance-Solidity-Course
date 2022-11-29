@@ -1,13 +1,6 @@
-# Sample Hardhat Project
+# ATM Project By Team 7
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This is smart contract, in which anyone can register and get a card which is represented by an unique 16 character code and a 4 digit secret pin
 
-Try running some of the following tasks:
+Once a person has a card, he can slot in the card and pin and can view his balance, withdraw, deposit or exit the machine.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
